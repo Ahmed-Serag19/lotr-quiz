@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+markdown
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# LOTR Quiz App
 
-## Available Scripts
+This is a Lord of the Rings themed quiz application built with React. The questions are stored in a JSON file and served using json-server.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. **Clone the repository**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ```bash
+   git clone https://github.com/Ahmed-Serag19/lotr-quiz.git
+   cd lotr-quiz
+   Install dependencies
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
 
-### `npm test`
+npm install
+Running the Application
+Start the React application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
 
-### `npm run build`
+npm start
+This will start the React app and open it in your default web browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the JSON server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In a new terminal window or tab, run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
 
-### `npm run eject`
+npm run server
+This will start the json-server on port 8000 and serve the questions from src/data/questions.json.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Project Structure
+css
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+lotr-quiz/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Header.js
+│ │ ├── Main.js
+│ │ ├── Loader.js
+│ │ ├── Error.js
+│ │ ├── StartScreen.js
+│ │ ├── Question.js
+│ │ ├── NextButton.js
+│ │ ├── Progress.js
+│ │ ├── FinishScreen.js
+│ │ ├── Timer.js
+│ ├── data/
+│ │ ├── questions.json
+│ ├── App.js
+│ ├── index.js
+├── README.md
+├── package.json
+└── .gitignore
+Dependencies
+React: A JavaScript library for building user interfaces.
+React-DOM: Provides DOM-specific methods that can be used at the top level of a web app.
+React-Scripts: Scripts and configuration used by Create React App.
+json-server: A full fake REST API with zero coding.
+Scripts
+npm start: Runs the app in development mode.
+npm run build: Builds the app for production.
+npm run test: Launches the test runner in interactive watch mode.
+npm run eject: Removes the single build dependency from your project.
+npm run server: Starts the json-server to serve the questions from src/data/questions.json.
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request.

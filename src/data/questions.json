@@ -1,0 +1,187 @@
+[
+  {
+    "question": "What is the name of Frodo's loyal friend who accompanies him to Mount Doom?",
+    "options": ["Legolas", "Aragorn", "Gimli", "Sam"],
+    "correctOption": 3,
+    "points": 10
+  },
+  {
+    "question": "Which race does Legolas belong to?",
+    "options": ["Dwarves", "Elves", "Men", "Hobbits"],
+    "correctOption": 1,
+    "points": 10
+  },
+  {
+    "question": "What is the name of the mountain where the One Ring must be destroyed?",
+    "options": [
+      "Mount Doom",
+      "Mount Mordor",
+      "Mount Erebor",
+      "Mount Fangorn"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "question": "Who is the rightful heir to the throne of Gondor?",
+    "options": ["Boromir", "Faramir", "Aragorn", "Denethor"],
+    "correctOption": 2,
+    "points": 10
+  },
+  {
+    "question": "What creature does Gollum call 'my precious'?",
+    "options": [
+      "The One Ring",
+      "The Arkenstone",
+      "The Silmaril",
+      "The Palantír"
+    ],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "question": "What is the name of Gandalf's horse?",
+    "options": ["Shadowfax", "Brego", "Arod", "Bill"],
+    "correctOption": 0,
+    "points": 10
+  },
+  {
+    "question": "Who leads the Fellowship of the Ring?",
+    "options": ["Frodo", "Aragorn", "Gandalf", "Legolas"],
+    "correctOption": 2,
+    "points": 30
+  },
+  {
+    "question": "What is the name of the elven city in Lothlórien?",
+    "options": [
+      "Rivendell",
+      "Gondolin",
+      "Minas Tirith",
+      "Caras Galadhon"
+    ],
+    "correctOption": 3,
+    "points": 20
+  },
+  {
+    "question": "What is the name of the giant spider that tries to capture Frodo?",
+    "options": ["Ungoliant", "Aragog", "Shelob", "Mirkwood"],
+    "correctOption": 2,
+    "points": 20
+  },
+  {
+    "question": "What is the name of the battle where the forces of Rohan fight Saruman's army?",
+    "options": [
+      "Battle of Helm's Deep",
+      "Battle of Pelennor Fields",
+      "Battle of Five Armies",
+      "Battle of Dagorlad"
+    ],
+    "correctOption": 0,
+    "points": 30
+  },
+  {
+    "question": "What gift does Galadriel give to Frodo?",
+    "options": ["A sword", "A cloak", "A light", "A ring"],
+    "correctOption": 2,
+    "points": 30
+  },
+  {
+    "question": "Which character is known as the 'Steward of Gondor'?",
+    "options": ["Boromir", "Faramir", "Denethor", "Théoden"],
+    "correctOption": 2,
+    "points": 10
+  },
+  {
+    "question": "What is the name of the inn where Frodo meets Strider?",
+    "options": [
+      "The Prancing Pony",
+      "The Green Dragon",
+      "The Golden Perch",
+      "The Ivy Bush"
+    ],
+    "correctOption": 0,
+    "points": 30
+  },
+  {
+    "question": "Who becomes the king of Rohan after Théoden's death?",
+    "options": ["Éomer", "Éowyn", "Faramir", "Merry"],
+    "correctOption": 0,
+    "points": 30
+  },
+  {
+    "question": "What is the elvish word for 'friend' that opens the Doors of Durin?",
+    "options": ["Mellon", "Aiya", "Namárië", "Elendil"],
+    "correctOption": 0,
+    "points": 20
+  },
+  {
+    "question": "Who is the Lord of Rivendell?",
+    "options": ["Elrond", "Celeborn", "Thranduil", "Galadriel"],
+    "correctOption": 0,
+    "points": 40
+  },
+  {
+    "question": "What is the name of the realm ruled by Galadriel and Celeborn?",
+    "options": ["Lothlórien", "Rivendell", "Mirkwood", "Gondor"],
+    "correctOption": 0,
+    "points": 40
+  },
+  {
+    "question": "What name does Aragorn go by as a Ranger?",
+    "options": ["Strider", "Ranger", "Arathorn", "Elessar"],
+    "correctOption": 0,
+    "points": 40
+  },
+  {
+    "question": "Who reforges the sword Narsil into Andúril?",
+    "options": ["Elrond", "Aragorn", "Sauron", "Glorfindel"],
+    "correctOption": 0,
+    "points": 40
+  },
+  {
+    "question": "What is the name of Frodo's uncle who originally found the One Ring?",
+    "options": [
+      "Bilbo Baggins",
+      "Samwise Gamgee",
+      "Peregrin Took",
+      "Meriadoc Brandybuck"
+    ],
+    "correctOption": 0,
+    "points": 40
+  },
+  {
+    "question": "Which fortress serves as Saruman's base of operations?",
+    "options": [
+      "Barad-dûr",
+      "Minas Morgul",
+      "Orthanc",
+      "Helm's Deep"
+    ],
+    "correctOption": 2,
+    "points": 40
+  },
+  {
+    "question": "Who kills the Witch-king of Angmar?",
+    "options": ["Aragorn", "Frodo", "Gandalf", "Éowyn"],
+    "correctOption": 3,
+    "points": 40
+  },
+  {
+    "question": "What is the name of the sword that Bilbo gives to Frodo?",
+    "options": ["Narsil", "Sting", "Glamdring", "Andúril"],
+    "correctOption": 1,
+    "points": 40
+  },
+  {
+    "question": "What is the full name of the character known as Gollum?",
+    "options": ["Sméagol", "Déagol", "Faramir", "Saruman"],
+    "correctOption": 0,
+    "points": 40
+  },
+  {
+    "question": "What are the giant, talking trees in Fangorn Forest called?",
+    "options": ["Ents", "Elves", "Hobbits", "Wargs"],
+    "correctOption": 0,
+    "points": 40
+  }
+]
