@@ -275,3 +275,52 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
+
+@media (max-width: 426px) {
+  .ring-image {
+    width: 100px;
+  }
+  .main {
+    width: 90%;
+  }
+
+  .app-header {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .app-header h1 {
+    font-size: 4rem;
+  }
+
+  .app-header img {
+    width: 150px;
+  }
+
+  .progress {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  .options {
+    font-size: 1.8rem;
+  }
+
+  .result {
+    font-size: 1.8rem;
+  }
+
+  .timer {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  .error {
+    font-size: 1.4rem;
+    padding: 1.5rem;
+  }
+}
